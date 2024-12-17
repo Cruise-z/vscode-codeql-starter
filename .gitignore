@@ -1,2 +1,4 @@
 # CodeQL compilation caches
 .cache/
+/databases/*
+!/databases/.gitkeep

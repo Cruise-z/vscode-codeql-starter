@@ -7,5 +7,10 @@
   "postCreateCommand": "git submodule init && git submodule update --recursive",
   "settings": {
     "codeQL.runningQueries.memory": 2048
+  },
+  "containerEnv": {
+    "HTTP_PROXY": "http://127.0.0.1:17890",
+    "HTTPS_PROXY": "http://127.0.0.1:17890",
+    "NO_PROXY": "localhost,127.0.0.1,.yourcompany.com"
   }
- }
+}
