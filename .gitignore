@@ -2,3 +2,5 @@
 .cache/
 /databases/*
 !/databases/.gitkeep
+/codeql_cli_binaries/*
+!/codeql_cli_binaries/.gitkeep

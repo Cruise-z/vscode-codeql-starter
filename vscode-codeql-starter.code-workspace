@@ -27,6 +27,9 @@
 		{
 			"path": "databases"
 		},
+		{
+			"path": "codeql_cli_binaries"
+		},
 	],
 	"settings": {
 		"omnisharp.autoStart": false
